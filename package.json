@@ -1,5 +1,5 @@
 {
-  "name": "create-docusaurus-app",
+  "name": "docs.impossible98.win",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,10 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write --cache",
+    "deploy-netlify": "netlify deploy --prod"
   },
   "dependencies": {
     "@docusaurus/core": "3.4.0",
@@ -23,8 +26,13 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
     "@docusaurus/module-type-aliases": "3.4.0",
-    "@docusaurus/types": "3.4.0"
+    "@docusaurus/types": "3.4.0",
+    "lefthook": "^1.6.12",
+    "netlify-cli": "^16.0.0",
+    "prettier": "^3.0.0"
   },
   "browserslist": {
     "production": [

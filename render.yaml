@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: d9e26197-c7a0-4052-a6b6-7aefb7c419af
+    runtime: static
+    buildCommand: yarn install --frozen-lockfile; yarn run build
+    staticPublishPath: ./build

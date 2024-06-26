@@ -1,4 +1,6 @@
-# Website
+# docs.impossible98.win
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cf85cd20-a2ab-4d1b-9864-ee05d7a8d94b/deploy-status)](https://app.netlify.com/sites/resilient-pie-bdae01/deploys)
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
