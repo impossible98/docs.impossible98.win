@@ -6,6 +6,7 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/impossible98/docs.impossible98.win',
   },
+  docsRepositoryBase: 'https://github.com/impossible98/docs.impossible98.win',
   footer: {
     text: 'Docs',
   },
