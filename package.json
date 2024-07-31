@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write --cache"
   },
   "dependencies": {
     "next": "^13.0.6",
@@ -14,7 +16,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
     "@types/node": "18.11.10",
+    "lefthook": "^1.6.12",
+    "prettier": "^3.0.0",
     "typescript": "^4.9.3"
   }
 }
