@@ -20,6 +20,9 @@ const config: DocsThemeConfig = {
       };
     }
   },
+  toc: {
+    backToTop: true,
+  },
 };
 
 export default config;
